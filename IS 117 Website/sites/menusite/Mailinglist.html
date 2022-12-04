@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Mailing List</title>
+        <link rel = "stylesheet" href = "Styles/Mailinglist.css">
+        <link rel = "short icon" href = "Images/favicon.ico">
+        <script type="text/javascript" language="javascript" src="js/MailingList.js"></script>
+    </head>
+    <body>
+        <h1>Join our Mailing List</h1>
+        <form method = "post" id = "createForm" action = "http://www.randyconnolly.com/tests/process.php">
+            <text>
+                <label class = "widthDouble" id = "a">First name</label>
+                <input type = "text" name = "First Name" id = "a" placeholder = "Ex. John" minlength = "3" maxlength = "10" required>
+            </text>
+            <text>
+                <label class = "widthDouble" id = "b">Last Name</label>
+                <input type = "text" name = "Last Name" id = "b" placeholder = "Ex. Smith" minlength = "3" maxlength = "15" required>
+            </text>
+            <text>
+                <label class = "widthDouble" id = "c">Email Address</label>
+                <input type = "email" name = "Email" id = "c" placeholder = "Ex. bluerobin@gmail.com" minlength = "5" maxlength = "25" required>
+            </text>
+            <text>
+                <label id = "d">Address</label>
+                <input type = "text" name = "Address" id = "d" placeholder = "Ex. 123 Main Street" minlength = "3" maxlength = "30" required>
+            </text>
+            <text>
+                <label id = "e">City</label>
+                <input type = "text" name = "City" id = "e" placeholder = "Ex. Newark" minlength = "3" maxlength = "20" required>
+            </text>
+            <text>
+                <label id = "f">State</label>
+                <input type = "text" name = "State" id = "f" placeholder = "Ex. NJ" minlength= "2" maxlength = "2" required>
+            </text>
+            <text>
+                <label id = "g">Zip Code</label>
+                <input type = "text" name = "Zip Code" id = "g" placeholder = "Ex. 07102" minlength = "5" maxlength = "5" required pattern="[0-9]+">
+            </text>
+            <label class = "widthDouble" for = "Found Out">How did you find out about us?</label>
+            <select name = "Found Out" id = "h" required>
+                <option selected disabled hidden = "">Please Select One of the Options</option>
+                <option>Friend/Family</option>
+                <option>Google</option>
+                <option>Work</option>
+                <option>Yelp</option>
+            </select>
+            <button type = "reset" id = "reset">Clear</button>
+            <button type = "submit" id = "submit" value = "subscribe">Subscribe</button>
+        </form>
+    </body>
+</html>

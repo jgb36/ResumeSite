@@ -1,0 +1,100 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.text{
+    background-color: black;
+    color: white;
+    margin: 0em;
+}
+.header{
+    background-color: blue;
+    color: white;
+    margin: 0em;
+    font-family: fantasy;
+    width: 100%;
+}
+.carousel-inner img{
+    margin: auto;
+}
+
+.tall{
+    height: 90%;
+}
+
+.background{
+    background: linear-gradient(black, darkgray, black, gray, black);
+}
+
+.resume{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+a:focus{
+    color: red;
+}
+ul p{
+    font-size: xx-small;
+    text-align: center;
+}
+.video{
+    font-size: xx-small;
+    text-align: right;
+}
+.underline{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    text-decoration-color: blue;
+}
+.picture{
+    list-style: none;
+}
+.side{
+    background-color: lightgray;
+}
+.home{
+    text-align: left;
+    color: black;
+}
+.card-header{
+    text-align: center;
+    color: red;
+}
+.work{
+    list-style: square;
+    text-align: center;
+}
+.site{
+    list-style: none;
+    justify-content: center;
+    word-spacing: 5px;
+}
+.dropdown-menu a{
+    background: darkslategray;
+    color: lightgray;
+}
+.dropdown-menu{
+    background-color: darkslategray;
+}
+.should{
+    float: right;
+}
+figure{
+    display: flex;
+    align-items: center;
+}
+figcaption{
+    font-size: xx-small;
+}
