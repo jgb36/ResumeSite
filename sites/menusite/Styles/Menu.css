@@ -1,0 +1,74 @@
+h1{
+    color: lightblue;
+    background-color: black;
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-family: Georgia;
+    color: gray;
+}
+footer{
+    font-family: 'Trebuchet MS';
+    color: darkred;
+    text-align: center;
+}
+nav{
+    color: blue;
+    text-align: center;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+}
+footer{
+    font-family: 'Trebuchet MS';
+    color: darkred;
+    text-align: center;
+}
+legend{
+    font-family: 'Trebuchet MS';
+    color: blue;
+    background-color: black;
+    font-size: 4em;
+}
+text{
+    font: arial;
+    color: gray;
+}
+select{
+    font: arial;
+    color: black;
+}
+button{
+    font: arial;
+    color: white;
+    background-color: black;
+    padding: 0.25em;
+}
+label{
+    color:black;
+    font: arial;
+}
+form{
+    display: grid;
+}
+#reset{
+    background-color: black;
+    color: white;
+    border-color: red;
+    border: 2px 2px 2px 2px;
+    width: 50%;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-color: red;
+    border: 2px 2px 2px 2px;
+    width: 50%;
+}
+#type{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
